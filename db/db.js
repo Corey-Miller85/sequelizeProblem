@@ -10,6 +10,6 @@ const db = {
 	models: {}
 };
 
-db.models.message = require("./models/Message")(sequelize);
+db.models.Message = require("./models/Message")(sequelize);
 
 module.exports = db;
